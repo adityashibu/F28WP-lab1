@@ -1,4 +1,20 @@
 /* Reset Styles */
+@font-face {
+    font-family: 'aqua';
+    src: url(fonts/aqua.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -6,7 +22,19 @@ body {
     color: #505050;
 }
 
+body nav {
+    position: sticky;
+    top: 0;
+  }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+
 .heading1{
+    font-family: aqua;
     text-align: center;
     font-size: 1.5rem;
     font-weight: bold;
@@ -15,6 +43,7 @@ body {
 }
 
 .heading2{
+    font-family: aqua;
     text-align: center;
     font-size: 1.5rem;
     font-weight: bold;
@@ -22,15 +51,8 @@ body {
     padding-bottom: 0%;
 }
 
-.portfolioheading{
-    text-align: center;
-    font-size: 90%;
-    font-weight: bold;
-    padding-top: 10px;
-    margin-bottom: 0px;
-}
-
 .content1{
+    font-family: roboto;
     text-align: center;
     font-size: 1rem;
     padding-top: 5px;
@@ -46,7 +68,8 @@ header {
     padding: 20px;
 }
 
-.headeraH1 {
+.headerH1 {
+    font-family: 'aqua';
     margin: 0;
 }
 
@@ -276,7 +299,21 @@ body {
 
 /* Content Description Styles */
 .content-description {
+    font-family: roboto;
     font-size: 14px;
     color: #777;
     margin: 0;
+}
+
+.footertxt{
+    font-family: aqua;
+}
+
+.footerlinks{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.navbar{
+    font-family: aqua;
 }
