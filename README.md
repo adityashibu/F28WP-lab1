@@ -1,2 +1,3 @@
 # F28WP-lab1
-Public repository for F28WP
+
+This is a read me file
