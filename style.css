@@ -361,3 +361,12 @@ body {
 .socialtable .cta-button:hover {
     background-color: #0056b3;
 }
+
+.projectdescription{
+    font-size: 0.9rem;
+    font-family: aqua;
+    display: inline;
+    text-align: center;
+    width: 100%;
+    color: red;
+}
