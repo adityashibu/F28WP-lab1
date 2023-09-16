@@ -62,7 +62,7 @@ body nav {
 
 /* Header Styles */
 header {
-    background-color: #282689;
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 103), rgb(92, 92, 199));
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -197,6 +197,7 @@ main h3 {
 }
 
 .cta-button {
+    font-family: aqua;
     display: inline-block;
     padding: 10px 20px;
     background-color: #007BFF;
@@ -316,4 +317,46 @@ body {
 
 .navbar{
     font-family: aqua;
+}
+
+.venturetable th{
+    font-family: aqua;
+}
+
+.venturetable td{
+    font-family: roboto;
+}
+
+.socialtable{
+    align-items: center;
+}
+
+.socialtable {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Center the buttons vertically and horizontally within their cells */
+.socialtable table {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.cta-button {
+    width: 50%;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+.socialtable .cta-button:hover {
+    background-color: #0056b3;
 }
