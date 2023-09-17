@@ -42,6 +42,16 @@ body nav {
     padding-bottom: 0%;
 }
 
+.headingaboutme{
+    font-family: aqua;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 0%;
+    color: white;
+}
+
 .heading2{
     font-family: aqua;
     text-align: center;
@@ -57,6 +67,15 @@ body nav {
     text-align: center;
     font-size: 1rem;
     padding-top: 5px;
+}
+
+.contentaboutme{
+    font-family: roboto;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 5px;
+    color: white;
 }
 
 /* Header Styles */
@@ -272,10 +291,6 @@ body {
     display: flex;
     align-items: center;
     transition: transform 0.2s;
-}
-
-.content-card:hover {
-    transform: translateY(-5px);
 }
 
 /* Content Image Styles */
@@ -535,3 +550,40 @@ body {
     padding-top: 10px;
     padding-bottom: 0%;
   }
+
+  /*delete from here*/
+.about-me-container {
+    display: flex;
+    max-width: 800px;
+    margin: 20px;
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 103), rgb(92, 92, 199));
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.about-me-image {
+    flex: 0 0 40%; /* Adjust the width as needed */
+    text-align: center;
+    padding: 20px;
+}
+
+.about-me-image img {
+    max-width: 125%;
+    height: auto; /* Maintain aspect ratio */
+}
+
+.about-me-text {
+    flex: 0 0 39%; /* Adjust the width as needed */
+    padding: 20px;
+}
+
+.about-me-text h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-me-text p {
+    font-size: 16px;
+    line-height: 1.6;
+}
