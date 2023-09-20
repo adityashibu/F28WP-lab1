@@ -1,3 +1,3 @@
 # F28WP-lab1
 
-This is a read me file
+This repository showcases my lab work along my progression through the course F28WP
