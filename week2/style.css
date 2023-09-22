@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-image: url("http://wallpapercave.com/wp/K7tq1CL.jpg");
+    background-image: url("images/backgroundimages.webp");
     background-size: cover;
 }
 
@@ -147,6 +147,7 @@ main h3 {
 
 .cta-header1{
     font-size: 2rem;
+    color: white;
 }
 
 .cta-button {
@@ -169,6 +170,7 @@ main h3 {
 .cta-container p {
     font-weight: bold;
     font-size: 1rem;
+    color: white;
 }
 
 /* Footer Styles */
