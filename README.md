@@ -2,7 +2,8 @@
 Public repository for F28WP
 
 # Week1
-Created a website and personalized it
+[Week 1 Website](https://adwii-iii.github.io/F28WP-lab1/week1/) <br>
+Created a travel agency website with HTML and CSS
 
 # Week2
 [Week 2 Website](https://adwii-iii.github.io/F28WP-lab1/week2/) <br>
