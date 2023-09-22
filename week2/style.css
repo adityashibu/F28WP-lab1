@@ -3,7 +3,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    color: #505050;
+    background-image: url("http://wallpapercave.com/wp/K7tq1CL.jpg");
+    background-size: cover;
 }
 
 /* Header Styles */
@@ -11,10 +12,12 @@ header {
     background-color: #282689;
     color: #fff;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
+    position: sticky;
+    top: 0;
 }
 
-.headeraH1 {
+.headerH1 {
     margin: 0;
 }
 
@@ -28,7 +31,6 @@ header {
     height: auto;
     display: block;
 }
-
 
 /* Navigation Styles */
 nav ul {
@@ -100,8 +102,8 @@ main h3 {
 }
 
 .service-column {
-    flex-basis: calc(25% - 20px);
-    max-width: calc(25% - 20px);
+    flex-basis: calc(50% - 20px);
+    max-width: calc(50% - 20px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -109,7 +111,7 @@ main h3 {
 }
 
 .service-column img {
-    width: 180px;
+    width: 250px;
     height: auto;
     margin-bottom: 10px;
 }
@@ -137,8 +139,14 @@ main h3 {
 .cta-container {
     text-align: center;
     padding: 20px;
-    background-color: #f5f5f5;
+    background-color: #ababab;
     margin-top: 30px;
+    border: 1px solid rgb(0, 42, 255);
+    padding-bottom: 25px;
+}
+
+.cta-header1{
+    font-size: 2rem;
 }
 
 .cta-button {
@@ -154,7 +162,13 @@ main h3 {
 }
 
 .cta-button:hover {
-    background-color: #0056b3;
+    background-color: #282689;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.cta-container p {
+    font-weight: bold;
+    font-size: 1rem;
 }
 
 /* Footer Styles */
