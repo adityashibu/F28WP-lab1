@@ -1,0 +1,17 @@
+.nameheading{
+    font-size: 300%;
+    color: white;
+}
+
+#socialmedia {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#socialmedia:hover {
+    color: #cfcece;
+}
+
+.link{
+    color:blue;
+}
