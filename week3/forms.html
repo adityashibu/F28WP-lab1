@@ -118,7 +118,7 @@ background color, border radius for rounded corners, and font size */
         const confirmPasswordError = document.getElementById("confirm-password-error");
 
         // Validate username: must be at least 3 characters
-        if (username.value.length < 0) {
+        if (username.value.length < 1) {
             username.classList.add("error");
             usernameError.textContent = "Username must be at least 3 characters";
         } else {
