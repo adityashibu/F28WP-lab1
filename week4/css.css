@@ -47,4 +47,15 @@ button {
     background-clip: text;
     margin: 20px 0; 
 }
+
+#weather-info {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #ff000d, rgb(255, 0, 255));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
     
