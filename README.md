@@ -22,3 +22,11 @@ Learnt about CSS and added style to the website
 
 [Week 3 Website](https://adwii-iii.github.io/F28WP-lab1/week3/gallery.html) <br>
 Added an image slider in the websites gallery page
+
+# Week 4
+
+[Week 4 JSON Test](https://adwii-iii.github.io/F28WP-lab1/week4/index.html) <br>
+Played around with creating and fetching information from JSON objects
+
+[Weather Finder page](https://adwii-iii.github.io/F28WP-lab1/week4/weatherfinder.html) <br>
+Created a weather finder page that fetches information from Openweathermap API to display the given country's/city's current weather information
