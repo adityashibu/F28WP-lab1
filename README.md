@@ -30,3 +30,11 @@ Played around with creating and fetching information from JSON objects
 
 [Weather Finder page](https://adwii-iii.github.io/F28WP-lab1/week4/weatherfinder.html) <br>
 Created a weather finder page that fetches information from Openweathermap API to display the given country's/city's current weather information
+
+# Week 5
+
+[Week 4 JSON Test](https://adwii-iii.github.io/F28WP-lab1/week4/index.html) <br>
+Played around with creating and fetching information from JSON objects
+
+[Weather Finder page](https://adwii-iii.github.io/F28WP-lab1/week4/weatherfinder.html) <br>
+Created a weather finder page that fetches information from Openweathermap API to display the given country's/city's current weather information
